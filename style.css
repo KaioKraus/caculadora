@@ -2,3 +2,64 @@
     margin: 0;
     padding: 0;
 }
+
+.main {
+    background-color: rgb(189, 189, 189);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.fundo_calculadora {
+    background-color: rgb(114, 114, 114);
+    height: 30vw;
+    width: 500px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    border-top: 40px;
+    
+}
+
+.tela {
+    background-color: whitesmoke;
+    height: 80px;
+    width: 450px;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.botoes_numeros {
+    height: 90px;
+    width: 95px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botoes_simbolos {
+    height: 90px;
+    width: 95px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
